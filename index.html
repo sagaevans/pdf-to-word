@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF → Word Gratis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="logo">PDF → Word Gratis</div>
+    <a href="#" class="link">Cara kerja</a>
+</header>
+
+<main class="container">
+    <div class="card">
+        <h1>
+            Konversi PDF ke Word BY NAS –
+            <span>Gratis 100% untuk personal ya!!</span>
+        </h1>
+
+        <p class="subtitle">
+            Tanpa batas harian, tanpa upload ke server —
+            semua proses berjalan di browser lokal :D
+        </p>
+
+        <div id="drop-area">
+            <p class="drop-title">Tarik & Lepas PDF ke sini brow</p>
+            <p class="drop-sub">atau klik untuk memilih file</p>
+            <p class="drop-note">Hanya PDF teks (bukan scan gambar)</p>
+            <input type="file" id="fileInput" accept="application/pdf" hidden>
+        </div>
+
+        <p id="fileName">Belum ada file yang dipilih.</p>
+
+        <div class="actions">
+            <button id="convertBtn">Convert ke Word</button>
+            <span class="badge">100% lokal, tanpa upload</span>
+        </div>
+
+        <p id="status">Menunggu file PDF...</p>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
